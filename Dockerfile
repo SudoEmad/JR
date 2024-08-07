@@ -1,5 +1,5 @@
-# Use the latest Ubuntu image
-FROM ubuntu:latest
+# Use the latest Kali Linux image
+FROM kalilinux/kali-rolling
 
 # Update and install required packages
 RUN apt-get update && apt-get install -y \
